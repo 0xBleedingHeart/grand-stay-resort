@@ -65,44 +65,7 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_NAME', 'reservation_system');
 ```
-
-### 4. Run Setup Scripts
-
-Navigate to the following URLs in your browser to set up the system:
-
-1. **Add profile columns:**
-   ```
-   http://localhost/resort/add_profile_columns.php
-   ```
-
-2. **Add account number column:**
-   ```
-   http://localhost/resort/add_account_number_column.php
-   ```
-
-3. **Add reference number column:**
-   ```
-   http://localhost/resort/add_reference_number.php
-   ```
-
-4. **Create admin account:**
-   ```
-   http://localhost/resort/create_admin.php
-   ```
-
-5. **Populate accommodations:**
-   ```
-   http://localhost/resort/insert_sample_data.php
-   ```
-
-6. **Populate add-ons:**
-   ```
-   http://localhost/resort/populate_addons.php
-   ```
-
-**Important:** Delete all setup PHP files after running them for security.
-
-### 5. Access the Application
+### 4. Access the Application
 ```
 http://localhost/resort/
 ```
